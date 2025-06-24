@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb3", "top": 121.8, "left": 252.4, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -105, "left": 297, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -68.5, "left": 201.4, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 150, "left": 455, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 195.95,
+      "left": 480,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "pot1:SIG", "uno:A0", "gold", [ "v105.6", "h312.6" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v86.4", "h172", "v0.1" ] ],
+    [ "pot1:GND", "uno:GND.2", "black", [ "v115.2", "h284.1" ] ],
+    [ "r1:1", "bb3:22t.d", "", [ "$bb" ] ],
+    [ "r1:2", "bb3:28t.d", "", [ "$bb" ] ],
+    [ "uno:9", "bb3:28t.a", "green", [ "h77.6", "v268.8" ] ],
+    [ "led1:A", "bb3:22t.c", "", [ "$bb" ] ],
+    [ "led1:C", "bb3:21t.c", "", [ "$bb" ] ],
+    [ "uno:GND.3", "bb3:21t.e", "black", [ "h-34.4", "v124.7" ] ]
+  ],
+  "dependencies": {}
+}

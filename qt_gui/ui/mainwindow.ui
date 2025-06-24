@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="4">
+     <widget class="QLabel" name="labelPotValue">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #333333;  /* dark gray */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}</string>
+      </property>
+      <property name="text">
+       <string>PWM</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="styleSheet">
+       <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 8px;
+    background: #b0b0b0;
+    border-radius: 4px;
+}
+
+/* Style for QSlider handle */
+QSlider::handle:horizontal {
+    background: #4CAF50;
+    border: 1px solid #5c5c5c;
+    width: 18px;
+    margin: -5px 0;
+    border-radius: 9px;
+}</string>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QPushButton" name="pushButtonToggle">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4CAF50;  /* green */
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45a049;  /* darker green on hover */
+}</string>
+      </property>
+      <property name="text">
+       <string>Potentiometer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QCheckBox" name="darkModeCheckBox">
+      <property name="text">
+       <string>Dark Mode</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Slider</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="labelStatus">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: #333333;  /* dark gray */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}</string>
+      </property>
+      <property name="text">
+       <string>Input Mode</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
