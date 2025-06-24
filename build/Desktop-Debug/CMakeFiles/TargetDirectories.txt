@@ -1,9 +1,0 @@
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/Actuator_simulation.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/install.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/install/local.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/install/strip.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/Actuator_simulation_autogen_timestamp_deps.dir
-/home/kc/Actuator_simulation/build/Desktop-Debug/CMakeFiles/Actuator_simulation_autogen.dir
